@@ -145,8 +145,8 @@
 
 .content__text-block {
   display: grid;
-  gap: 20px;
   align-items: baseline;
+  gap: 20px;
 }
 
 .article {
@@ -216,7 +216,6 @@
 /* начало медиазапросов*/
 
 @media (width >= 768px) {
-
   .header {
     padding-inline-start: 0;
   }
@@ -229,14 +228,14 @@
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
   .header__subtitle {
     justify-self: end;
     width: clamp(355px, 70%, 491px);
     margin-inline-start: 210px;
     margin-block-end: 110px;
   }
-  
+
   .content {
     gap: 80px;
     padding: 60px 20px;
@@ -272,7 +271,6 @@
 }
 
 @media (width >= 1024px) {
-
   .header__theme-menu {
     justify-self: center;
     margin-block-start: 0;
