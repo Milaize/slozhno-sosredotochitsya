@@ -6,6 +6,7 @@
   --accent-color: #ff0070;
   --decorated-color: #ff0070;
   --text-color: #f1b2ce;
+  --text-shadow: #ff0070;
 }
 
 .page .theme_dark {
@@ -16,6 +17,7 @@
   --accent-color: #ff0070;
   --decorated-color: #ff0070;
   --text-color: #f1b2ce;
+  --text-shadow: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,5 +29,10 @@
     --accent-color: #ff0070;
     --decorated-color: #ff0070;
     --text-color: #f1b2ce;
+    --text-shadow: #ff0070;
   }
+}
+
+.page.theme_light .rec {
+  visibility: visible;
 }

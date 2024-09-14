@@ -5,6 +5,7 @@
   --text-color: #353430;
   --decorated-color: #ff8dcb;
   --bg-color: #fff1f7;
+  --text-shadow: #ff0070;
 }
 
 .page.theme_light {
@@ -14,6 +15,7 @@
   --text-color: #353430;
   --decorated-color: #ff8dcb;
   --bg-color: #fff1f7;
+  --text-shadow: #ff0070;
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,9 +26,9 @@
     --text-color: #353430;
     --decorated-color: #ff8dcb;
     --bg-color: #fff1f7;
+    --text-shadow: #ff0070;
   }
 }
-
 .page.theme_light .rec {
-  display: none;
+  visibility: hidden;
 }
