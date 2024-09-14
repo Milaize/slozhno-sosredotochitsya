@@ -29,11 +29,11 @@
     --text-shadow: #ff0070;
   }
 
-  .page.theme_light .rec {
+  .rec {
     visibility: hidden;
   }
 }
 
-.page.theme_light .rec {
+.rec {
   visibility: hidden;
 }
