@@ -2,7 +2,7 @@
   color: var(--text-color);
   font-family: var(--main-font, sans-serif);
   font-size: 18px;
-  line-height: 1.46em;
+  line-height: 23.4px;
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
@@ -22,7 +22,8 @@
   grid-template-rows: min-content 1fr auto;
   align-items: center;
   height: 100vh;
-  padding: clamp(10px, 50%, 20px);
+  min-height: 668px;
+  padding: clamp(10px, 1vw, 20px);
 }
 
 .decorated-zone::before,
@@ -112,15 +113,15 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
+  text-shadow: 4px 4px 0 var(--decorated-color);
 }
 
 .header__subtitle {
-  margin-block: 60px;
+  margin-block: 55px;
   color: var(--subtitle-color);
   font-weight: 700;
-  font-size: inherit;
-  line-height: inherit;
   background: var(--decorated-color);
+  background-size: cover;
 }
 
 /* начало блока main */
@@ -204,6 +205,7 @@
   place-items: center;
   height: 100vh;
   padding: clamp(10px, 50%, 20px);
+  text-shadow: 4px 4px 0 var(--decorated-color);
 }
 
 .footer_title {
