@@ -31,8 +31,11 @@
     --text-color: #f1b2ce;
     --text-shadow: #ff0070;
   }
+  .page.theme_dark .rec {
+    visibility: visible;
+  }
 }
 
-.page.theme_light .rec {
+.page.theme_dark .rec {
   visibility: visible;
 }

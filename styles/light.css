@@ -28,7 +28,12 @@
     --bg-color: #fff1f7;
     --text-shadow: #ff0070;
   }
+
+  .page.theme_light .rec {
+    visibility: hidden;
+  }
 }
+
 .page.theme_light .rec {
   visibility: hidden;
 }
