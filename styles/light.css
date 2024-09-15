@@ -22,11 +22,11 @@
     --button-hover: rgba(50, 49, 45, 0.4);
   }
 
-  .theme_light .rec {
-   display: none;
+  .page.theme_light .rec {
+    display: none;
   }
 }
 
-.theme_light .rec {
+.page.theme_light .rec {
   display: none;
 }
