@@ -23,10 +23,10 @@
   }
 
   .theme_light .rec {
-    visibility: hidden;
+   display: none;
   }
 }
 
 .theme_light .rec {
-  visibility: hidden;
+  display: none;
 }

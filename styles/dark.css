@@ -23,10 +23,10 @@
     --button-hover: rgba(255, 0, 112, 0.4);
   }
   .theme_dark .rec {
-    visibility: visible;
+    display: block;
   }
 }
 
 .theme_dark .rec {
-  visibility: visible;
+  display: block;
 }
