@@ -7,4 +7,6 @@
   --decorated-color: #ff0070;
   --text-color: #f1b2ce;
   --main-font: IBM Plex Mono;
+  --text-shadow: #ff0070;
+  --button-hover: rgba(50, 49, 45, 0.4);
 }

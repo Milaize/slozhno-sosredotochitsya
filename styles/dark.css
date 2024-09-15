@@ -1,4 +1,4 @@
-:root .theme_dark {
+.page.theme_dark {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --subtitle-color: #000028;
@@ -7,21 +7,11 @@
   --decorated-color: #ff0070;
   --text-color: #f1b2ce;
   --text-shadow: #ff0070;
-}
-
-.page .theme_dark {
-  --bg-image: url(../images/cover-image-dark.png);
-  --bg-color: #000028;
-  --subtitle-color: #000028;
-  --title-color: #db00ff;
-  --accent-color: #ff0070;
-  --decorated-color: #ff0070;
-  --text-color: #f1b2ce;
-  --text-shadow: #ff0070;
+  --button-hover: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root .page {
+  :root {
     --bg-image: url(../images/cover-image-dark.png);
     --bg-color: #000028;
     --subtitle-color: #000028;
@@ -30,12 +20,13 @@
     --decorated-color: #ff0070;
     --text-color: #f1b2ce;
     --text-shadow: #ff0070;
+    --button-hover: rgba(255, 0, 112, 0.4);
   }
-  .rec {
+  .theme_dark .rec {
     visibility: visible;
   }
 }
 
-.rec {
+.theme_dark .rec {
   visibility: visible;
 }
